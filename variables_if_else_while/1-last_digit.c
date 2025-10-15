@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Determines if a number is greater than, less than, or equal to zero.
+ * main - Determines either greater than 5, is less than 6, or is 0
  *
  * Return: Always 0 (Success)
  */
