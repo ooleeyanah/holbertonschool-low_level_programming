@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcat(char *dest, char *src) - appends src string to dest string
+ * *_strcat - appends src string to dest string
  * @dest: destination
  * @src: source
  * Return: pointer to resulting string dest
@@ -14,7 +14,6 @@ dest++;
 while (*src != '\0')
 {
 *dest = *src;
-dest++;
 src++;
 }
 *dest = '\0';
