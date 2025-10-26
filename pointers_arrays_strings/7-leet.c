@@ -5,7 +5,6 @@
  * Return: encoded string
  */
 char *leet(char *s)
-char *leet(char *s)
 {
 char letters[] = "aAeEoOtTlL";
 char numbers[] = "4433007711";
