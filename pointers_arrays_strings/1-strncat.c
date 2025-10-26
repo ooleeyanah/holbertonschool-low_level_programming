@@ -16,11 +16,11 @@ dest++;
 }
 while (*(src + i) != '\0')
 {
-*dest = *(src + i);
 if (i > n)
 {
 break;
 }
+*dest = *(src + i);
 dest++;
 i++;
 }
