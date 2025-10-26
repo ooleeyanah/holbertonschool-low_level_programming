@@ -15,7 +15,7 @@ while (count >= 0)
 if (*(src + count) == '\0')
 break;
 count++;
-if (count > n)
+if (count >= n)
 break;
 }
 return (dest);
