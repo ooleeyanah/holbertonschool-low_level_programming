@@ -11,12 +11,12 @@ char *_strncpy(char *dest, char *src, int n)
 int count = 0;
 while (count >= 0)
 {
+if (n <= count)
+break;
 *(dest + count) = *(src + count);
 if (*(src + count) == '\0')
 break;
 count++;
-if (count >= n)
-break;
 }
 return (dest);
 }
