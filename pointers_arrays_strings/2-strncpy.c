@@ -19,9 +19,9 @@ if (*(src + count) == '\0')
 break;
 count++;
 }
-if (count == 0)
+if (n > count)
 {
-for (i = 0; i < n; i++)
+for (i = 0; i < (n - count); i++)
 {
 *(dest + i) = '\0';
 }
