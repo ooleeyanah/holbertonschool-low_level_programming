@@ -18,5 +18,12 @@ if (*(src + count) == '\0')
 break;
 count++;
 }
+if (count == 0)
+{
+for (int i = 0; i < n; i++)
+{
+*(dest + i) = '\0';
+}
+}
 return (dest);
 }
