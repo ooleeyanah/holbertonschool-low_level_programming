@@ -16,7 +16,7 @@ dest++;
 }
 while (*(src + i) != '\0')
 {
-if (i > n)
+if (i >= n)
 {
 break;
 }
